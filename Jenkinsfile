@@ -10,7 +10,7 @@ pipeline {
         }
         stage('cmdexicute'){
             steps{
-               bat 'liquibase update'
+               bat 'liquibase --changeLogFile=changelog.sql update'
             }
         }
     }
