@@ -3,6 +3,7 @@ pipeline {
     stages{
          stage('Build'){
              steps{
+			     bat 'git pull'
 			     bat 'cd examples//sql'
 				 echo 'colne done'
             }
