@@ -3,7 +3,6 @@ pipeline {
     stages{
          stage('Build'){
              steps{
-				 bat 'cd liquibase'
 				 echo 'colne done'
             }
         }
