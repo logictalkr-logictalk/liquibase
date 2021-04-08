@@ -3,7 +3,8 @@ pipeline {
     stages{
          stage('Build'){
              steps{
-                 echo 'hi'
+                 bat 'git clone https://github.com/logictalkr-logictalk/liquibase.git'
+				 echo 'colne done'
             }
         }
         stage('Test'){
