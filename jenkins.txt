@@ -1,0 +1,5 @@
+node{
+steps{
+update: liquibase update
+}
+}
