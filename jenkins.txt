@@ -1,6 +1,6 @@
 node{
 steps{
-git: https://github.com/logictalkr-logictalk/sample_dev.git
-update: liquibase update
+
+update: update
 }
 }
