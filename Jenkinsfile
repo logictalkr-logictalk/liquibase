@@ -6,7 +6,7 @@ pipeline {
 			    bat 'cd ./Program Files/PostgreSQL/13/bin'
 				bat 'psql -U postgres -h localhost'
 				bat 'janakiram@123'
-				bat '\list'
+				bat 'list'
 
 				echo "hi"
 			 
