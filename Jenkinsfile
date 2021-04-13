@@ -5,7 +5,7 @@ pipeline {
     stages{
          stage('Build'){
              steps{
-			    bat 'cd C:\Program Files\PostgreSQL\13\bin'
+			    bat 'cd \Program Files\PostgreSQL\13\bin'
 				bat 'psql -U postgres -h localhost'
 				bat 'janakiram@123'
 				bat '\list'
