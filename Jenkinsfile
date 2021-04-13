@@ -5,12 +5,10 @@ pipeline {
     stages{
          stage('Build'){
              steps{
-			    def driver = Class.forName('org.postgresql.Driver').newInstance() as Driver 
-				def props = new Properties()
-				props.setProperty("DB_user", "postgres")
-				props.setProperty("DB_password", "janakiram@123")
-				def conn = driver.connect("jdbc:postgresql://localhost:5432/sample_fly", props)
-				def sql = new Sql(conn)
+			    bat 'cd C:\Program Files\PostgreSQL\13\bin'
+				bat 'psql -U postgres -h localhost'
+				bat 'janakiram@123'
+				bat '\list'
 
 				echo "hi"
 			 
@@ -20,7 +18,7 @@ pipeline {
         }
         stage('cmdexicute'){
             steps{
-               bat 'liquibase update'
+               echo "hello"
             }
         }
     }
