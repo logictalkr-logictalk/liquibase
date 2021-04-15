@@ -1,0 +1,1 @@
+insert  into  Persons  (PersonID,  LastName, FirstName, Address, City)  values  (16, 'sunny','tiya','mp','macherla');
