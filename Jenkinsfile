@@ -3,6 +3,7 @@ pipeline {
     stages{
          stage('Build'){
              steps{
+			    url
 			    bat 'cd ./Program Files/PostgreSQL/13/bin'
 				bat 'psql -U postgres -h localhost'
 				bat 'janakiram@123'
