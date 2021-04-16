@@ -1,1 +1,0 @@
-insert  into  Persons  (PersonID,  LastName, FirstName, Address, City)  values  (6, 'venkat','padam','kothapalli','macherla');
