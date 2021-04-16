@@ -1,6 +1,6 @@
 <changeSet author="liquibase-docs" id="sql-example">  
     <comment>insert queries</comment>
-    <sql dbms="h2, oracle" 
+    <sql dbms="postgres" 
                 splitStatements="true"
                 stripComments="true">         
         insert into persons (PersonID,  LastName, FirstName, Address, City)  values  (200, 'venkat','p','kothapalli','macherla');    
