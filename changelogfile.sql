@@ -1,12 +1,3 @@
 --liquibase formatted sql
 --changeset {authorName}:{id}
-CREATE TABLE Employee (PersonID int,
-    LastName varchar(255),
-	FirstName varchar(255),
-	Address varchar(255),
-	City varchar(255));
-	
-	
-insert into Employee (PersonID,  LastName, FirstName, Address, City)  values  (200, 'venkat','p','kothapalli','macherla');
-insert into Employee (PersonID,  LastName, FirstName, Address, City)  values  (201, 'janakiramaiah','N','nehru nagar','macherla');
-insert into Employee (PersonID,  LastName, FirstName, Address, City)  values  (202, 'moulali','sk','thalapalli','macherla');
+insert into Employee (PersonID,  LastName, FirstName, Address, City)  values  (203, 'siva','s','macherla','macherla');
