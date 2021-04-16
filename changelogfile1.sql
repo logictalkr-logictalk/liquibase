@@ -11,4 +11,4 @@ insert into company (PersonID,  LastName, FirstName, Address, City)  values  (20
 insert into company (PersonID,  LastName, FirstName, Address, City)  values  (201, 'janakiramaiah','N','nehru nagar','macherla');
 insert into company (PersonID,  LastName, FirstName, Address, City)  values  (202, 'moulali','sk','thalapalli','macherla');
 
-<include file = 'changelogfile.sql'>
+<include file = changelogfile.sql>
