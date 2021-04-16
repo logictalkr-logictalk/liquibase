@@ -1,0 +1,9 @@
+<changeSet  author="liquibase-docs"  id="sql-example">
+  <sql dbms="sample_fly"
+   endDelimiter="\nGO"
+   splitStatements="true"
+   stripComments="true">insert into Emp (PersonID,  LastName, FirstName, Address, City)  values  (200, 'venkat','p','kothapalli','macherla')
+   
+<comment>What about Bob?</comment>
+   </sql>
+</changeSet>
