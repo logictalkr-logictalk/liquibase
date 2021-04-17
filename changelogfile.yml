@@ -1,5 +1,5 @@
 databaseChangeLog:
 - include:
-    file: changelogfile.sql
+    file: changelogfiles/changelogfile.sql
 - include:
-    file: changelogfile1.sql
+    file: changelogfiles/changelogfile1.sql
